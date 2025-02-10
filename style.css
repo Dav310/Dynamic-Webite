@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+}
+
+h1,h2,h3,h4,h5{ 
+    color: var(--bs-dark-primary);
+
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style: none;
+}
+
+button, a {
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+
+}
+
+/* Common Heading Section */
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 0.01rem !important;
+
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+/* Service Section */
+
+.service-section{
+    padding: 10rem 0 3rem 0 !important;
+}
+
+/* Hero section Start */
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+.gif-video-section{
+    max-width: 100%;
+    width: 60rem;
+    border-radius: 2rem ;
+
+}
+
+.container{
+    place-content: center;
+    height: inherit;
+
+}
+
+
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+
+}
+
+.icon-span:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-box:hover{
+    box-shadow: var(--secondary-color) 0px 3px 8px;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,.09) , rgba(22,22,22,.09)) 
+    ,url("./images/black_background_leather-wallpaper-2560x1440.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    
+}
+
+.more-info-section img{
+    width: 80%;
+    
+}
+
+.more-info-section h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+/* Carousel styling */
+
+.carousel-inner .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all .3s linear;
+}
+
+
+
+.carousel-inner .card:hover{
+    background: var(--bs-main-color);
+    color: var(--bs-dark-primary)
+}
+
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+
+.carousel-indicators{
+    bottom: -6rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: var(--secondary-color);
+}
+
+.card{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
